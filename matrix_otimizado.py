@@ -1,3 +1,6 @@
+import pyximport
+pyximport.install(language_level = 3)
+
 from math import cos, sin
 from testec import mult_v, mult_m, mult_m_v, mult_v_v
 from random import random
