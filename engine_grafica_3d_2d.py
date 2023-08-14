@@ -1,3 +1,6 @@
+import pyximport
+pyximport.install(language_level = 3)
+
 from math import cos, sin, radians
 try:
     from matrix_otimizado import Matrix, Vector
